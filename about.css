@@ -1,0 +1,189 @@
+
+body{
+    font-family: sans-serif;
+    background-color: #FFFFFF;
+}
+.mission, .about{
+    margin-left: 40px;
+}
+.mission h1{
+    color: #3EB085;
+}
+.about h1{
+    color: #3EB085;
+}
+.story{
+    background-image: url('./img/visuals.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 500px;
+    width: 100%;
+}
+.structure{
+    background-image: url('./img/stone.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 500px;
+    width: 100%;
+}
+.activities{
+    background-image: url('./img/black.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 500px;
+    width: 100%;
+}
+.story h1{
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 40px;
+    padding-top: 200px;
+    line-height: 10px;
+}
+.structure h1{
+    font-weight: bold;
+    color: black;
+    margin-left: 40px;
+    padding-top: 200px;
+    line-height: 10px;
+}
+.activities h1{
+    font-weight: bold;
+    color: black;
+    margin-left: 40px;
+    padding-top: 200px;
+    line-height: 10px;
+}
+.story p{
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+.structure p{
+    margin-left: 40px;
+    color: black;
+}
+.activities p{
+    margin-left: 40px;
+    color: black;
+}
+.story button{
+    margin-left: 40px;
+    background: #3EB085;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+.structure button{
+    margin-left: 40px;
+    background: #3EB085;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+}
+.activities button{
+    margin-left: 40px;
+    background: #3EB085;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+}
+div.panel{
+    overflow: hidden;
+    opacity: 0;
+    max-height: 0;
+    margin-left: 40px;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+div.panel.show{
+    opacity: 1;
+    max-height: 500px;
+}
+.executives h1{
+    color: #3EB085;
+    margin-bottom: 10px;
+}
+
+.avatar{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns:repeat(3, 1fr) ;
+}
+.avatar-img{
+    background: whitesmoke;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow:gray ;
+}
+.avatar-img img{
+    width: 50px;
+    height: 50px;
+}
+.exco button{
+    background: #3EB085;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-footer{
+    background: gray;
+    color: #FFFFFF;
+    padding: 1rem 0;
+    
+}
+
+.section-footer .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    margin: 30px;
+}
+.container a{
+    text-decoration: none;
+}
+.container i{
+    color: #3EB085;
+}
+input {
+	outline: none;
+	border: none;
+}
+.section-footer button{
+    background: #3EB085;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+

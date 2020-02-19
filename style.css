@@ -1,0 +1,135 @@
+body{
+    font-family: sans-serif;
+}
+/* nav */
+nav{
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: #cccccc;
+}
+.logo-text{
+    margin-top: 40px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+    margin-left: 70px;
+}
+nav .current a{
+	color:#3EB085;
+	font-weight: bold;
+}
+
+.text{
+    margin: 70px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.orange{
+    color:orange;
+}
+
+/* image slider */
+.image-slider{
+    position: relative;
+}
+.slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.slide1{background-image: url('img/mayur-gala-487.jpg')}
+.slide2{background-image: url('img/pineapple.jpg')}
+
+.slide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-top: 330px;
+    position: absolute;
+    background:rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+.slide-content h2{
+    /* font-size: 5rem; */
+    color: #fff;
+    margin-left: 50px;
+    line-height: 5px;
+}
+.slide-content p{
+    color: #fff;
+    margin-left: 50px;
+    line-height: 5px;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top:-50px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+#arrow-left{
+    border-width: 30px 40px 30px 0;
+    border-color:transparent #cccccc transparent transparent ;
+    left: 0;
+    margin-left: 30px;
+}
+#arrow-right{
+    border-width: 30px 0 30px 40px;
+    border-color:transparent transparent transparent #cccccc  ;
+    right: 0;
+    margin-right: 30px;
+}
+
+
+.mark{
+    display: flex;
+    height: 400px;
+    background: aqua;
+}
+.mark2{
+    display: flex;
+    height: 400px;
+    background: #fff;
+}
+
+.mark-content{
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 60px;
+    
+}
+.mark-content2{
+    color: #3EB085;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.mark-content button{
+    background: #fff;
+    color: #3EB085;
+    border-radius: 5px;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+.mark-content2 button{
+    background: #3EB085;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
