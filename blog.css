@@ -1,0 +1,158 @@
+body{
+    background-color: #ffff;
+}
+/* nav */
+nav{
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: #cccccc;
+}
+.logo-text{
+    margin-top: 40px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+    margin-left: 70px;
+}
+nav .current a{
+	color:#3EB085;
+	font-weight: bold;
+}
+
+/* image slider */
+.image-slider{
+    position: relative;
+}
+.slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.slide1{background-image: url('img/pineapple.jpg')}
+.slide2{background-image: url('img/coffee.jpg')}
+
+.slide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-top: 330px;
+    position: absolute;
+    background:rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+.slide-content h2{
+    /* font-size: 5rem; */
+    color: #fff;
+    margin-left: 50px;
+    line-height: 5px;
+}
+.slide-content p{
+    color: #fff;
+    margin-left: 50px;
+    line-height: 5px;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top:-50px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+#arrow-left{
+    border-width: 30px 40px 30px 0;
+    border-color:transparent #cccccc transparent transparent ;
+    left: 0;
+    margin-left: 30px;
+}
+#arrow-right{
+    border-width: 30px 0 30px 40px;
+    border-color:transparent transparent transparent #cccccc  ;
+    right: 0;
+    margin-right: 30px;
+}
+
+.search-box{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.search-box i { 
+    position: absolute;
+    color: grey; 
+    width: 50px;
+    height: 50px;
+} 
+.icon { 
+    padding: 10px; 
+    min-width: 40px; 
+}
+.search-box input{
+    width: 80%;
+    height: 40px;
+    border: 0.1rem solid white;
+    border-radius: 5px;
+    box-shadow: 0 0.4rem 1.4rem rgba(86, 185, 235, 0.5);
+}
+::placeholder {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.picnic{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.picnic img{
+    width: 250px;
+    height: 200px;
+}
+.text{
+    margin: 20px;
+    margin-top: 0;
+}
+
+.section-footer{
+    background: gray;
+    color: #FFFFFF;
+    padding: 1rem 0;
+    
+}
+
+.section-footer .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    margin: 30px;
+}
+.container a{
+    text-decoration: none;
+}
+.container i{
+    color: #3EB085;
+}
+input {
+	outline: none;
+	border: none;
+}
+.section-footer button{
+    background: #3EB085;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+}
